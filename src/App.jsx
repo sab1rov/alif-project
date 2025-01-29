@@ -1,5 +1,12 @@
+import Cort from './pages/Cort'
+
 function App() {
-    return <></>;
+
+  return (
+    <>
+      <Cort />
+    </>
+  )
 }
 
-export default App;
+export default App
