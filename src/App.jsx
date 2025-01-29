@@ -1,4 +1,5 @@
 import Header from "./components/Header";
+import Cards from './components/Cards'
 import Cort from './pages/Cort'
   
 function App() {
@@ -6,6 +7,8 @@ function App() {
         <>
             <Header />
             <Cort />
+            <Cards />
+      
         </>
     );
 }
