@@ -1,12 +1,13 @@
+import Header from "./components/Header";
 import Cort from './pages/Cort'
-
+  
 function App() {
-
-  return (
-    <>
-      <Cort />
-    </>
-  )
+    return (
+        <>
+            <Header />
+            <Cort />
+        </>
+    );
 }
 
 export default App

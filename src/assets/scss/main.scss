@@ -1,3 +1,4 @@
-@import "./compponents/normalize";
+@use "./general/normalize";
 
+@use "./components/header";
 @import "./sections/cort";
