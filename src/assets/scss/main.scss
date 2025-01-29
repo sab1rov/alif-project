@@ -1,6 +1,5 @@
 @use "./general/normalize";
-@import "./components/normalize.scss";
 
 @use "./components/header";
 @import "./components/cort";
-@import "./sections/cards.scss";
+@import "./components/cards";
