@@ -1,5 +1,6 @@
-@import "./components/variables.scss";
+@use "./general/normalize";
 @import "./components/normalize.scss";
-@import "./components/mixins.scss";
 
+@use "./components/header";
+@import "./components/cort";
 @import "./sections/cards.scss";
