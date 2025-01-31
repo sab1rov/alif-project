@@ -4,6 +4,7 @@ import MenuIcon from "../assets/icons/MenuIcon";
 import SearchIcon from "../assets/icons/SearchIcon";
 import LikeIcon from "../assets/icons/LikeIcon";
 import SavatIcon from "../assets/icons/SavatIcon";
+import { Link } from "react-router-dom";
 
 function Header() {
     return (
@@ -12,9 +13,9 @@ function Header() {
                 <div className='header__wrap'>
                     <div className='header__top'>
                         <div className='header__left'>
-                            <a href='/' className='header__logo'>
+                            <Link to='/' className='header__logo'>
                                 <AlifIcon />
-                            </a>
+                            </Link>
                             <button className='header__catalog'>
                                 <MenuIcon />
                                 Tovarlar katalogi
@@ -32,10 +33,10 @@ function Header() {
                                 <SearchIcon />
                             </button>
                         </div>
-                        <a href='/' className='header__button'>
+                        <Link to='/cart' className='header__button'>
                             <SavatIcon />
                             Savat
-                        </a>
+                        </Link>
                         <a href='/' className='header__button'>
                             <LikeIcon />
                             Saralanganlar

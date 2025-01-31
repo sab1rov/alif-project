@@ -1,5 +1,6 @@
-@use "./general/normalize";
+@import "./generals/normalize";
 
-@use "./components/header";
-@import "./components/cort";
+@import "./components/header";
 @import "./components/cards";
+@import "./components/cart";
+@import "./components/banner";

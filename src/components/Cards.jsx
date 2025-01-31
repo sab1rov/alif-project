@@ -16,7 +16,7 @@ function Cards() {
                     </a>
                     <div className='cards__card'>
                         {CardsCommonData.map((item) => (
-                            <div className='cards__item'>
+                            <div className='cards__item' key={item.id}>
                                 <div className='cards__map'>
                                     <div className='cards__image'>
                                         <img
