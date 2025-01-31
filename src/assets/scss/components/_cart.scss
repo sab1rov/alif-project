@@ -1,4 +1,4 @@
-.cort {
+.cart {
 
     &__wrapp {
         display: flex;
@@ -22,12 +22,13 @@
     }
 
     &__button {
-        padding: 20px 155px;
+        padding: 12px 20px;
         background: rgb(255, 153, 0);
         border: 1px solid rgb(255, 153, 0);
         color: black;
         border-radius: 10px;
         margin: 20px 0;
+        width: 100%;
         &:hover {
             background-color: rgb(255, 167, 34);
         }
@@ -38,7 +39,8 @@
     }
 
     &__buton {
-        padding: 20px 155px;
+        padding: 12px 20px;
+        width: 100%;
         background: white;
         border: 1px solid grey;
         border-radius: 10px;

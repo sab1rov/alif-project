@@ -1,10 +1,12 @@
-import Cort from './pages/Cort'
+import Banner from './components/Banner'
+import CartPage from './pages/CartPage'
 
 function App() {
 
   return (
     <>
-      <Cort />
+      <CartPage />
+      <Banner />
     </>
   )
 }
